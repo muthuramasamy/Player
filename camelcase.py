@@ -6,6 +6,6 @@ for i in range(len(a)):
 	elif (a[i-1].isspace()):
 		b+=a[i].upper()
 	else:
-		b+=a[i]
+		b+=a[i].lower()
 print(b)
 	
