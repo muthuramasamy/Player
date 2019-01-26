@@ -3,9 +3,9 @@ l = list(map(int,input().split()))
 if(n<k):
     for i in range(n):
         if(i == n-1):
-            print(lis[i],end="")
+            print(l[i],end="")
         else:
-            print(lis[i],end=" ")
+            print(l[i],end=" ")
 else:
     a= n-k
     for i in range(a,n):
