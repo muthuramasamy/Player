@@ -1,6 +1,6 @@
-# your code goes here
-n=input()
-if n.isnumeric():
+# brutus
+p=input()
+if p.isnumeric():
 	print("yes")
 else:
 	print("no")
