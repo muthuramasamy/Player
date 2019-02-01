@@ -6,6 +6,4 @@ for i in ans:
 c=0
 for i in n:
 	if n.count(i)==1:
-		print(i,end=" ")
-	else:
-		print(i,end="")
+		print(i,end=" "	)
